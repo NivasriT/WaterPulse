@@ -870,17 +870,6 @@ export default function App() {
         </main>
       )}
 
-      {/* Footer info bar */}
-      <footer className="border-t border-slate-850 bg-slate-950 px-6 py-4 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 space-y-2 md:space-y-0">
-        <div>
-          © 2026 WaterPulse Project. Built for Climate Resilience & Water Security in India.
-        </div>
-        <div className="flex space-x-4">
-          <span>Active Datasets: Tamil Nadu Centroids & CGWB Groundwater Baseline</span>
-          <span>•</span>
-          <span className="text-cyan-600 font-bold">FastAPI & Leaflet Integrated Stack</span>
-        </div>
-      </footer>
     </div>
   );
 }
